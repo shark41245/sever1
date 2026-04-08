@@ -18,4 +18,7 @@ app.get("/health", (req, res) => {
   res.json({ status: "ok" });
 });
 
-export default app;
+// 🔥 핵심 (이거 추가)
+export default function handler(req, res) {
+  return app(req, res);
+}
