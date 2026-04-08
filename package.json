@@ -1,10 +1,6 @@
 {
-  "name": "serverserver",
+  "name": "server1",
   "type": "module",
-  "scripts": {
-    "build": "echo build skip",
-    "start": "node api/index.js"
-  },
   "dependencies": {
     "express": "^4.19.2",
     "@trpc/server": "^10.45.0",
